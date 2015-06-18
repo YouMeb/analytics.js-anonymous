@@ -1,0 +1,20 @@
+{
+  "name": "analytics.js-anonymous",
+  "version": "0.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "install": "make build",
+    "lint": "make lint"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "author": "Po-Ying Chen <poying.me@gmail.com> (陳柏穎)",
+  "license": "MIT",
+  "devDependencies": {
+    "duo": "^0.12.1",
+    "pre-commit": "^1.0.10",
+    "urad-make-eslint": "^2.1.0"
+  }
+}
